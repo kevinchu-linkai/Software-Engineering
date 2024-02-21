@@ -1,53 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T12:45:50.024Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="n7Z3cU6DlntsLNbkyxlv" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T16:46:02.831Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="fLC1tuk1G1FyzTuj8bUg" version="23.1.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="708" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Presentation Layer" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="280" height="342" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value=":Interface" style="" parent="2" vertex="1">
-          <mxGeometry x="60" y="110" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="l5u-4_CDlA-rln_UsC7J-41" value="Staff" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="2">
-          <mxGeometry x="107.25" y="32" width="15.5" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="l5u-4_CDlA-rln_UsC7J-46" value="Input ID" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="l5u-4_CDlA-rln_UsC7J-41" target="7">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="165.5" y="72" as="sourcePoint" />
-            <mxPoint x="245.5" y="72" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3" value="Domain Layer" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="444.5" y="128" width="265.5" height="342" as="geometry" />
-        </mxCell>
-        <mxCell id="15" value=":System" style="" parent="3" vertex="1">
-          <mxGeometry x="20" y="110" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="l5u-4_CDlA-rln_UsC7J-44" value=":MembershipList" style="" vertex="1" parent="3">
-          <mxGeometry x="20" y="222" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="l5u-4_CDlA-rln_UsC7J-48" value="matchUpWithExistingID(ID)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3" source="15" target="l5u-4_CDlA-rln_UsC7J-44">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="90" y="82" as="sourcePoint" />
-            <mxPoint x="125.5" y="202" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l5u-4_CDlA-rln_UsC7J-49" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;labelBackgroundColor=default;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3" target="l5u-4_CDlA-rln_UsC7J-51">
-          <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="125.5" y="102" as="sourcePoint" />
-            <mxPoint x="165.5" y="71.42999999999995" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l5u-4_CDlA-rln_UsC7J-51" value="Controller" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="3">
-          <mxGeometry x="165.5" y="62" width="65.5" height="31.11" as="geometry" />
-        </mxCell>
-        <mxCell id="l5u-4_CDlA-rln_UsC7J-47" value="confirmMembership(ID)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="15">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-47" value="1: matchID()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="15">
+          <mxGeometry x="0.3793" width="80" relative="1" as="geometry">
             <mxPoint x="389.73" y="180" as="sourcePoint" />
             <mxPoint x="389.73" y="227" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="225" y="370" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Membership" style="" parent="1" vertex="1">
+          <mxGeometry x="170" y="388" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="BorrowingTransaction" style="" parent="1" vertex="1">
+          <mxGeometry x="157.25" y="280" width="135.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-46" value="confirmMembership(ID)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l5u-4_CDlA-rln_UsC7J-53" target="7">
+          <mxGeometry x="0.1765" width="80" relative="1" as="geometry">
+            <mxPoint x="547.75" y="120" as="sourcePoint" />
+            <mxPoint x="695.5" y="100" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-53" value="Patron" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-54" value="BorrowingTransaction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-55" value="+ date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="l5u-4_CDlA-rln_UsC7J-54">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="l5u-4_CDlA-rln_UsC7J-54">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-57" value="+confirmMembership(ID)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="l5u-4_CDlA-rln_UsC7J-54">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-58" value="Membership" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-59" value="+ id&lt;br&gt;+ startDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="l5u-4_CDlA-rln_UsC7J-58">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-60" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="l5u-4_CDlA-rln_UsC7J-58">
+          <mxGeometry y="70" width="160" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="l5u-4_CDlA-rln_UsC7J-61" value="matchID()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="l5u-4_CDlA-rln_UsC7J-58">
+          <mxGeometry y="80" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
